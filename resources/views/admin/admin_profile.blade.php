@@ -86,7 +86,7 @@
                                 <div class="mb-3">
                                     <label class="form-label">Profile Image</label>
                                     <input type="file" name="photo" class="form-control">
-                                    <img src="{{asset('upload/' .$getRecord->photo )}}" alt="" style="height: 100px;">
+                                    <img src="{{asset('public/upload/' .$getRecord->photo )}}" alt="" style="height: 100px;">
                                 </div>
 
                                 <div class="mb-3">

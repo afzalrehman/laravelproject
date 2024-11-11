@@ -40,7 +40,7 @@
                             <label class="col-sm-3 col-form-label">Profile Image</label>
                             <div class="col-sm-9">
                                 <input type="file" class="form-control" name="profile"  >
-                                <img class="wd-80 ht-80 rounded-circle" src="{{asset('upload/' . Auth::user()->photo )}}" alt="">
+                                <img class="wd-80 ht-80 rounded-circle" src="{{asset('public/upload/' . Auth::user()->photo )}}" alt="">
                                 <span style="color: red;">{{$errors->first('profile')}}</span>
                             </div>
                         </div>
