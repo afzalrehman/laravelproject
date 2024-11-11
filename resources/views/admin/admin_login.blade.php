@@ -18,22 +18,22 @@
   <!-- End fonts -->
 
 	<!-- core:css -->
-	<link rel="stylesheet" href="{{asset('assets/vendors/core/core.css')}}">
+	<link rel="stylesheet" href="{{url('assets/vendors/core/core.css')}}">
 	<!-- endinject -->
 
 	<!-- Plugin css for this page -->
 	<!-- End plugin css for this page -->
 
 	<!-- inject:css -->
-	<link rel="stylesheet" href="{{asset('assets/fonts/feather-font/css/iconfont.css')}}">
-	<link rel="stylesheet" href="{{asset('assets/vendors/flag-icon-css/css/flag-icon.min.css')}}">
+	<link rel="stylesheet" href="{{url('assets/fonts/feather-font/css/iconfont.css')}}">
+	<link rel="stylesheet" href="{{url('assets/vendors/flag-icon-css/css/flag-icon.min.css')}}">
 	<!-- endinject -->
 
   <!-- Layout styles -->  
-	<link rel="stylesheet" href="{{asset('assets/css/demo2/style.css')}}">
+	<link rel="stylesheet" href="{{url('assets/css/demo2/style.css')}}">
   <!-- End layout styles -->
 
-  <link rel="shortcut icon" href="{{asset('assets/images/favicon.png')}}" />
+  <link rel="shortcut icon" href="{{url('assets/images/favicon.png')}}" />
 </head>
 <body>
 	<div class="main-wrapper">
@@ -45,7 +45,7 @@
 						<div class="card">
 							<div class="row">
                 <div class="col-md-4 pe-md-0">
-                 <img src="{{asset('upload/login.png')}}" alt="" style="height: 100%; width: 100%;">
+                 <img src="{{url('upload/login.png')}}" alt="" style="height: 100%; width: 100%;">
                 </div>
                 <div class="col-md-8 ps-md-0">
                   <div class="auth-form-wrapper px-4 py-5">
@@ -88,15 +88,15 @@
 	</div>
 
 	<!-- core:js -->
-	<script src="{{asset('assets/vendors/core/core.js')}}"></script>
+	<script src="{{url('assets/vendors/core/core.js')}}"></script>
 	<!-- endinject -->
 
 	<!-- Plugin js for this page -->
 	<!-- End plugin js for this page -->
 
 	<!-- inject:js -->
-	<script src="{{asset('assets/vendors/feather-icons/feather.min.js')}}"></script>
-	<script src="{{asset('assets/js/template.js')}}"></script>
+	<script src="{{url('assets/vendors/feather-icons/feather.min.js')}}"></script>
+	<script src="{{url('assets/js/template.js')}}"></script>
 	<!-- endinject -->
 
 	<!-- Custom js for this page -->
